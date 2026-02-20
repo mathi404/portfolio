@@ -8,11 +8,11 @@
             <span><a>&#8962; Home</a></span>
         </div>
         <div class="navbar-projects-container">
-            <span><a>Projects</a></span>
+            <span><a>&#9989; Projects</a></span>
         </div>
         
         <div class="navbar-contactme-container">
-            <span><a>Contact me</a></span>
+            <span><a>&#9993; Contact me</a></span>
         </div>
     </div>
 </template>
