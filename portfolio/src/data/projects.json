@@ -1,0 +1,77 @@
+{
+    "project 1": {
+        "title": "PHP Backend for IoT device",
+        "description": "During my third year at HVA, I was given the assignment to develop a backend for an Internet of things device, this included basic CRUD operations through a REST API.",
+        "role": "Backend-Developer",
+        "year": "3",
+        "course": "Smart cities studio",
+        "techStack": {
+            "PHP": "main programming language",
+            "NGNINX": "open source web server",
+            "Docker": "Maintaining containers provided by HVA",
+            "SQL": "for quering database",
+            "vendor": "PHP package manager",
+            "firebase": "For handling JWT tokens "
+        },
+        "coreActivities": {
+            "1": "Developing backend structure through OOP principles.",
+            "2": "Designing and implementing a SQL database that is normalized to a minimum of N3.",
+            "3": "Working with Docker containers and altering these where needed."
+        }
+    },
+    "project 2": {
+        "title": "Fullstack application for an AI teacher assistant",
+        "images": {
+            "foto1": "../portfolio/src/assets/portfolioAimeefoto1.png",
+            "foto2": "../portfolio/src/assets/portfolioAimeefoto2.png",
+            "foto3": "../portfolio/src/assets/portfolioAimeefoto3.png"
+        },
+        "description": "During the studio smart cities, we had to create an  AI teacher tool that generates excersises for gifted students, with the core idea being that there is a human in the loop when the model generates excersises",
+        "role": "Backend-Developer",
+        "year": "3",
+        "course": "Smart cities studio",
+        "techStack": {
+            "Python": "main programming language",
+            "FastAPI": "framework for creating REST API",
+            "Postgres": "Database",
+            "Docker": "for maintaining/creating containers/images",
+            "Vue": "frontend framework",
+            "JWT": "for authenticating users",
+            "Bootstrap": "util for creating fast UI"
+        },
+        "coreActivities": {
+            "1": "Developing backend structure",
+            "2": "Designing and implementing a a postgress database",
+            "3": "Working with Docker containers.",
+            "4": "Creating a dashboard for teachers to get insights into statistics generate from the application",
+            "5": "Creating a login/registry functionality"
+        }
+    },
+    "project 3": {
+        "title": "Fullstack application for displaying election data",
+        "images": {
+            "foto1": "../portfolio/src/assets/ElectionProjectFoto1.png",
+            "foto2": "../portfolio/src/assets/ElectionProjectFoto2.png",
+            "foto3": "../portfolio/src/assets/ElectionProjectFoto3.png"
+
+        },
+        "description": "During the second year of my study we were tasked with writing an efficient XML parser in java to visualize election data through a web app.",
+        "role": "Fullstack Developer",
+        "year": "2",
+        "course": "Software engineering semester 3 HBO-ICT",
+        "techStack": {
+            "Java": "main programming language",
+            "Spring boot": "framekwork for creating REST API",
+            "Hibernate": "in memory database client",
+            "Vue": "frontend framework",
+            "Docker": "for deployment purposes",
+            "JWT": "for authenticating users"
+        },
+        "coreActivities": {
+            "1": "Developing backend structure",
+            "2": "Creating a search functionality for candidates",
+            "3": "Working with Docker containers.",
+            "4": "Creating a login/registry functionality with spring security"
+        }
+    }
+}
