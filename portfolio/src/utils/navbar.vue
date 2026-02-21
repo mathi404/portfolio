@@ -5,19 +5,23 @@
     <div class="navbar-container">
         
          <div class="navbar-home-container">
-            <span><a>&#8962; Home</a></span>
+            <span><RouterLink to="/home">&#8962; Home</RouterLink></span>
         </div>
         <div class="navbar-projects-container">
-            <span><a>&#9989; Projects</a></span>
+            <span><RouterLink to="/projects">&#9989; Projects</RouterLink></span>
         </div>
         
         <div class="navbar-contactme-container">
-            <span><a>&#9993; Contact me</a></span>
+            <span><RouterLink to="/form">&#9993; Contact me</RouterLink></span>
         </div>
     </div>
 </template>
 
 <style scoped>
+a{
+    text-decoration: none;
+    color: white;
+}
 .navbar-container{
     display: flex;
     flex-direction: row;

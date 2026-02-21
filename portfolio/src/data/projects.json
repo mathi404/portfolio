@@ -22,9 +22,9 @@
     "project 2": {
         "title": "Fullstack application for an AI teacher assistant",
         "images": {
-            "foto1": "../portfolio/src/assets/portfolioAimeefoto1.png",
-            "foto2": "../portfolio/src/assets/portfolioAimeefoto2.png",
-            "foto3": "../portfolio/src/assets/portfolioAimeefoto3.png"
+            "foto1": "/portfolio/public/portfolioAimeefoto1.png",
+            "foto2": "/portfolio/public/portfolioAimeefoto2.png",
+            "foto3": "/portfolio/public/portfolioAimeefoto3.png"
         },
         "description": "During the studio smart cities, we had to create an  AI teacher tool that generates excersises for gifted students, with the core idea being that there is a human in the loop when the model generates excersises",
         "role": "Backend-Developer",
@@ -50,9 +50,9 @@
     "project 3": {
         "title": "Fullstack application for displaying election data",
         "images": {
-            "foto1": "../portfolio/src/assets/ElectionProjectFoto1.png",
-            "foto2": "../portfolio/src/assets/ElectionProjectFoto2.png",
-            "foto3": "../portfolio/src/assets/ElectionProjectFoto3.png"
+            "foto1": "/portfolio/public/ElectionProjectFoto1.png",
+            "foto2": "/portfolio/public/ElectionProjectFoto2.png",
+            "foto3": "/portfolio/public/ElectionProjectFoto3.png"
 
         },
         "description": "During the second year of my study we were tasked with writing an efficient XML parser in java to visualize election data through a web app.",

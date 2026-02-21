@@ -4,5 +4,12 @@ body{
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.btn-primary{
+button{
+    color: white;
+    background-color: #0072b1;
+    border-radius: 25px;
+    padding: 20px;
+}
+button:hover{
+    background-color: #005a8c;
 }

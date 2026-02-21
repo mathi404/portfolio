@@ -1,11 +1,25 @@
 import projectsData from "../src/data/projects.json" with { type: "json"}
 import "dotenv/config"
 import express from "express"
+import cors from "cors"
+import path from "node:path"
+import { fileURLToPath } from "node:url"
 
 
 const app = express()
 // line supports the app to parse json
 app.use(express.json());
+
+app.use(
+    cors({
+        origin: process.env.ALLOWED_ORIGINS,
+        methods: ["GET", "POST"],
+    })
+);
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+app.use("/images", express.static(path.join(__dirname, "public", "images")));
 
 const WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
