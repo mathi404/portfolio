@@ -16,10 +16,11 @@ app.use(
         methods: ["GET", "POST"],
     })
 );
+
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-app.use("/images", express.static(path.join(__dirname, "public", "images")));
+app.use(express.static(path.join(__dirname, "../public")))
 
 const WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 

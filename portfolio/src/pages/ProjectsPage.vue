@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted } from 'vue';
 import {ref} from "vue"
+const API_BASE = import.meta.env.VITE_SERVER_API_BASE_URL;
 
 const projects = ref([])
 onMounted(async()=>{
@@ -12,7 +13,8 @@ onMounted(async()=>{
         }
     })
     const data = await response.json();
-    projects.value = Array.isArray(data) ? data : Object.values(data);
+    let realData = projects.value = Array.isArray(data) ? data : Object.values(data);
+    console.log(realData)
 
 })
 
@@ -22,7 +24,7 @@ onMounted(async()=>{
   <div class="project-container">
     <div class="project-item" v-for="i in projects" :key="i.title">
       <div class="project-media">
-        <img v-if="i.images?.foto1" :src="i.images.foto1" />
+        <img v-if="i.images?.foto1" :src="API_BASE + i.images?.foto1" />
       </div>
       <div class="title-container">
         <span>{{i.title}}</span>
