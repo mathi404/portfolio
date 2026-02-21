@@ -13,8 +13,7 @@ onMounted(async()=>{
         }
     })
     const data = await response.json();
-    let realData = projects.value = Array.isArray(data) ? data : Object.values(data);
-    console.log(realData)
+    projects.value = Array.isArray(data) ? data : Object.values(data);
 
 })
 
@@ -26,6 +25,8 @@ onMounted(async()=>{
       <div class="project-media">
         <img v-if="i.images?.foto1" :src="API_BASE + i.images?.foto1" />
       </div>
+        <button class="slider-btn left"><</button>
+        <button class="slider-btn right">></button>
       <div class="title-container">
         <span>{{i.title}}</span>
       </div>
@@ -34,6 +35,18 @@ onMounted(async()=>{
 </template>
 
 <style scoped>
+.slider-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.slider-btn.left{
+    left: 12px;
+}
+.slider-btn.right{
+    right: 12px;
+}
 .project-item img {
   width: 100%;
   height: auto;
@@ -52,10 +65,11 @@ onMounted(async()=>{
   margin: 20px;
   padding: 20px 20px;
   width: 800px;
-  height: 500px;
+  height: 550px;
   overflow: hidden;
 }
 .project-media{
+    position: relative;
     width: 100%;
     height: 420px;
     overflow: hidden;
