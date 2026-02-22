@@ -111,7 +111,7 @@ function previous(title, images) {
 }
 .expand-enter-to,
 .expand-leave-from {
-  max-height: 650px; /* set big enough for your content */
+  max-height: 650px;
   opacity: 1;
 }
 .see-more-container {

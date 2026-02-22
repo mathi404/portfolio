@@ -1,6 +1,10 @@
 {
     "project 1": {
         "title": "PHP Backend for IoT device",
+        "images":{
+            "foto1": "/portfolioBackendfoto1.png",
+            "foto2": "/portfolioBackendfoto2.png"
+        },
         "description": "During my third year at HVA, I was given the assignment to develop a backend for an Internet of things device, this included basic CRUD operations through a REST API.",
         "role": "Backend-Developer",
         "year": "3",

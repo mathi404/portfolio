@@ -14,8 +14,8 @@ function redirect(){
             <img src="../assets/profilepicture.jpg">
         </div>
         <div class="about-me-container">
-            <h1>text</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, ducimus dignissimos beatae odio in illum molestias officia ad. Dicta mollitia voluptatibus sapiente ipsa ipsam fuga aliquam numquam consequuntur omnis deserunt.</p>
+            <h1>Info.</h1>
+            <p>Ambitious junior software developer with 3 years of experience in developing web applications. Skilled in creating user-friendly features, with a strong passion for backend systems. Always focused on personal growth and continuously improving technical skills. Seeking a position where I can contribute value while supporting the team and further developing my expertise.</p>
         </div>
     </div>
     <div class="info-wrapper">
@@ -103,7 +103,7 @@ function redirect(){
     background-color: #27272a;
     color: white;
     width: 500px;
-    height:350px;
+    height:auto;
     padding: 50px;
     border-radius: 50px;
 }
