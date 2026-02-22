@@ -5,6 +5,7 @@ import ProjectsPage from "@/pages/ProjectsPage.vue"
 import HomePage from "@/pages/HomePage.vue"
 
 const routes = [
+    {path:"/", redirect: "/home"},
     {path:"/home", component: HomePage},
     {path: "/form", component: FormPage},
     {path: "/projects", component: ProjectsPage},

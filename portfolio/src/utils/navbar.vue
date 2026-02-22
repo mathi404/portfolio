@@ -1,17 +1,21 @@
 <script setup>
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+const routeTo = (path) =>router.push(path)
 </script>
 
 <template>
     <div class="navbar-container">
         
-         <div class="navbar-home-container">
+         <div @click="routeTo('/home')" class="navbar-home-container">
             <span><RouterLink to="/home">&#8962; Home</RouterLink></span>
         </div>
-        <div class="navbar-projects-container">
+        <div @click="routeTo('/projects')" class="navbar-projects-container">
             <span><RouterLink to="/projects">&#9989; Projects</RouterLink></span>
         </div>
         
-        <div class="navbar-contactme-container">
+        <div @click="routeTo('/form')" class="navbar-contactme-container">
             <span><RouterLink to="/form">&#9993; Contact me</RouterLink></span>
         </div>
     </div>
