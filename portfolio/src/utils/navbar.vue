@@ -165,7 +165,6 @@ a{
     .mobile-links-container{
         position: absolute;
         top: 100%;
-        right: 5em;
         width: 220px;
         background: #18181b;
         border-radius: 16px;
