@@ -179,4 +179,17 @@ function previous(title, images) {
   background-color: #323235;
   border-radius: 25px;
 }
+@media  screen and (max-width: 768px) {
+  .project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .project-item{
+    width: 95%;
+  }
+  
+}
 </style>
