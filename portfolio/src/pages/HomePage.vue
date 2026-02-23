@@ -107,4 +107,36 @@ function redirect(){
     padding: 50px;
     border-radius: 50px;
 }
+@media screen and (max-width: 768px){
+    .general-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hello-container{
+        margin-top: 3%;
+        font-size: 0.7em;
+        animation: typing 3s steps(40, end), blink-caret 0.5s step-end infinite;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .img-container{
+        width: 30px;
+        height: auto;
+    }
+    img{
+        width: 15em;
+        height: auto;
+    }
+    .info-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
 </style>
